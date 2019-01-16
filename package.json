@@ -1,0 +1,33 @@
+{
+  "name": "pr-status",
+  "version": "0.1.0",
+  "description": "Command line utility to check the status of open pull requests of an organization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar4eve/pr-status.git"
+  },
+  "keywords": [
+    "pr-status",
+    "pr",
+    "status",
+    "pull-request-status",
+    "pull",
+    "request",
+    "pull-request",
+    "status"
+  ],
+  "author": "Ambar Agrawal <amb.ar4eve@gmail.com> (https://ambaragrawal.com)",
+  "license": "MIT",
+  "bin": {
+    "pr-status": "./index.js",
+    "prs": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ar4eve/pr-status/issues"
+  },
+  "homepage": "https://github.com/ar4eve/pr-status#readme"
+}
