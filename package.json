@@ -1,10 +1,10 @@
 {
   "name": "pr-status",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Command line utility to check the status of open pull requests of an organization.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,15 @@
   ],
   "author": "Ambar Agrawal <amb.ar4eve@gmail.com> (https://ambaragrawal.com)",
   "license": "MIT",
+  "devDependencies" : {
+    "jest": "23.6.0"
+  },
   "bin": {
     "pr-status": "./index.js",
     "prs": "./index.js"
+  },
+  "engines": {
+    "node": ">=6.16.0"
   },
   "bugs": {
     "url": "https://github.com/ar4eve/pr-status/issues"
