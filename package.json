@@ -1,6 +1,6 @@
 {
   "name": "pr-status",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Command line utility to check the status of open pull requests of an organization.",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,12 @@
   ],
   "author": "Ambar Agrawal <amb.ar4eve@gmail.com> (https://ambaragrawal.com)",
   "license": "MIT",
-  "devDependencies" : {
-    "jest": "23.6.0"
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
   },
   "bin": {
     "pr-status": "./index.js",
